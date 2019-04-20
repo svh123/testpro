@@ -6,5 +6,5 @@ from django.http import *
 
 
 def hello_app(request,name):
-    data = "Hi {}, Welcome to first view of AWS....".format(name)
+    data = "Hi {}, Welcome to first view of AWS Hosting....".format(name)
     return HttpResponse(data)
